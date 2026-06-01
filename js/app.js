@@ -66,7 +66,7 @@ function regP(r) {
 }
 function rC(d)  { return d>=90 ? 'row-r' : d>=30 ? 'row-a' : ''; }
 function zdlnk(id) {
-  return '<a class="zd" href="https://acousticmkt.zendesk.com/agent/tickets/'+id+'" target="_blank">#'+id+'</a>';
+  return '<a class="zd" href="https://acoustichelpcenter.zendesk.com/agent/tickets/'+id+'" target="_blank">#'+id+'</a>';
 }
 function jlnk(j) {
   if (!j || j==='—') return '—';
