@@ -103,7 +103,7 @@ document.querySelectorAll('.tab').forEach(function(btn){
 /* ══════════════════════════════════════════════════════════════════════════
    MAIN — fetch data and render
 ══════════════════════════════════════════════════════════════════════════ */
-fetch('data/latest.json')
+fetch('data/latest.json?v=' + Date.now())
   .then(function(r){ return r.json(); })
   .then(function(D){ render(D); })
   .catch(function(err){
