@@ -296,7 +296,7 @@ function stB(s){return s==='Open'?'<span class="b b-open">Open</span>':s==='Solv
 function rC(d){return d>=90?'row-r':d>=30?'row-a':'';}
 function regP(r){return r==='EMEA'?'<span class="reg-pill reg-emea">EMEA</span>':r==='APJ'?'<span class="reg-pill reg-apj">APJ</span>':r==='LATAM'?'<span class="reg-pill reg-latam">LATAM</span>':'<span class="reg-pill reg-amer">Americas</span>';}
 function jlnk(j){if(!j||j==='—')return '—';var m=j.match(/([A-Z]+-\d+)/);if(m)return '<a class="jl" href="https://acoustic-jiraconf.atlassian.net/browse/'+m[1]+'" target="_blank">'+j+'</a>';return j;}
-function zdlnk(id){return '<a class="zd" href="https://acousticmkt.zendesk.com/agent/tickets/'+id+'" target="_blank">#'+id+'</a>';}
+function zdlnk(id){return '<a class="zd" href="https://acoustichelpcenter.zendesk.com/agent/tickets/'+id+'" target="_blank">#'+id+'</a>';}
 
 (function(){
   var tb=document.getElementById('trend-tbody');
